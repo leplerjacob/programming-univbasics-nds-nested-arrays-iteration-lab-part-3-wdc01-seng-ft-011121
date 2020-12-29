@@ -6,6 +6,7 @@ def join_nested_strings(src)
     for f in 0...src[i].length
       if src[i][f].class == 'String'
         strings_from_src_arrays.push(src[i][f])
+        puts src[i][f]
       end
     end
   end
