@@ -5,4 +5,6 @@ def join_nested_strings(src)
   for i in 0...src.length
     for f in 0...src[i].length
       p src.[i][f].class.downcase
+    end
+  end
 end
