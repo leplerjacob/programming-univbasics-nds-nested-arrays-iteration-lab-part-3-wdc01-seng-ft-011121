@@ -4,7 +4,7 @@ def join_nested_strings(src)
   strings_from_src_arrays = []
   for i in 0...src.length
     for f in 0...src[i].length
-      puts src[i][f].class
+      puts src[i][f].class.class
       if src[i][f].class == 'String'
         strings_from_src_arrays.push(src[i][f])
         puts src[i][f]
