@@ -8,5 +8,6 @@ def join_nested_strings(src)
         strings_from_src_arrays.push(src[i][f])
     end
   end
-  strings_from_src_arrays.join(' ')
+  combined_string = strings_from_src_arrays.join(' ')
+  combined_string
 end
