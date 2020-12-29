@@ -9,7 +9,6 @@ def join_nested_strings(src)
       end
     end
   end
-  puts strings_from_src_arrays
   combined_string = strings_from_src_arrays.join(' ')
   combined_string
 end
