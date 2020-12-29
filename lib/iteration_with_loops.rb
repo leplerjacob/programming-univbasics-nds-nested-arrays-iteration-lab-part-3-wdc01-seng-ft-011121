@@ -4,5 +4,5 @@ def join_nested_strings(src)
   combined_string = ""
   for i in 0...src.length
     for f in 0...src[i].length
-      if src.[i][f].class.tolower
+      p src.[i][f].class.downcase
 end
