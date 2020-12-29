@@ -7,7 +7,6 @@ def join_nested_strings(src)
       puts src[i][f].class
       if src[i][f].class.to_s == 'String'
         strings_from_src_arrays.push(src[i][f])
-        puts src[i][f]
       end
     end
   end
